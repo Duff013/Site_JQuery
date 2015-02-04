@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	 <style>
+
+	 body{
+	 	background-color: #000033;
+
+	 }
+
+	 #menu{
+	 	width : 94%;
+		height: 170px;
+	 	background-color: #003366;
+	 	margin : 35px;
+	 	margin-top : 55px;
+	 	padding: 1px;
+	 	border:1px solid #3300FF;
+	 	border-radius : 25px;
+	 }
+
+	 #contenu{
+	 	margin: 20px;
+	 	height: 650px;
+	 	width : 95%;
+	 	background-color: green;
+	 	border-radius : 25px;
+	 	visibility: hidden;
+	 }
+
+	 #carre1{}
+	 #carre2{}
+	 #carre3{}
+	 #carre4{}
+	 #carre5{}
+	 #carre6{}
+	 #carre7{}
+	 #carre8{}
+	 #carre9{}
+
+	 #carre1Anim{
+	 	margin-top: -200px;
+
+	 }
+
+	 #carre2Anim{
+		margin-left : 182px;
+	 }
+
+
+	 #carre3Anim{
+		margin-left : 355px;
+	 }
+
+
+	 #carre4Anim{
+		margin-left : 526px;
+	 }
+
+
+	 #carre5Anim{
+		margin-left : 697px;
+	 }
+
+	 #carre6Anim{
+		margin-left : 870px;
+	 }
+
+	 #carre7Anim{
+		margin-left : 1042px;
+	 }
+
+
+	 #carre8Anim{
+		margin-left : 1213px;
+	 }
+
+	 #carre9Anim{
+		margin-left : 1386px;
+	 }
+
+	 .anim{
+		position: absolute;
+		margin:10px;
+		height: 150px;
+	 	width: 150px;
+	 	background-color: #003366;
+	 	border:1px solid #3300FF;
+	 	border-radius : 25px;
+	 	visibility: hidden;
+	 }
+
+	 .carre{
+	 	margin:10px;
+	 	height: 150px;
+	 	width: 150px;
+	 	background-color: #000066;
+	 	border:1px solid #3300FF;
+	 	border-radius : 25px;
+	 	color : white;
+	 	float:left;
+	 }
+
+	 .carreDiv{
+	 	margin-top: 60px;
+	 	margin-left: 50px;
+	 }
+
+	 #reduireAgrandir{
+	 	position:absolute;
+	 	margin-top: -85px;
+	 	margin-left: 790px;
+	 }
+
+
+	 </style>
+
+	 <script type="text/javascript" src="./ouverture.js"></script>
+	 <script type="text/javascript" src="./anim.js"></script>
+	</head>
+	<body>
+
+	<div id="reduireAgrandir"><img src="flecheHaut.png" alt="Réduire"></div>
+	<div id="menu">
+		<div id="carre1" class="menu carre" data-content="#carre1Anim" data-current="#carre1">
+			<div class="carreDiv">Menu 1</div>
+		</div>
+
+		<div id="carre2" class="menu carre" data-content="#carre2Anim" data-current="#carre2">
+			<div class="carreDiv">Menu 2</div>
+		</div>
+
+		<div id="carre3" class="menu carre" data-content="#carre3Anim" data-current="#carre3">
+			<div class="carreDiv">Menu 3</div>
+		</div>
+		
+		<div id="carre4" class="menu carre" data-content="#carre4Anim" data-current="#carre4">
+			<div class="carreDiv">Menu 4</div>
+		</div>
+
+		<div id="carre5" class="menu carre" data-content="#carre5Anim" data-current="#carre5">
+			<div class="carreDiv">Menu 5</div>
+		</div>
+
+		<div id="carre6" class="menu carre" data-content="#carre6Anim" data-current="#carre6">
+			<div class="carreDiv">Menu 6</div>
+		</div>
+
+		<div id="carre7" class="menu carre" data-content="#carre7Anim" data-current="#carre7">
+			<div class="carreDiv">Menu 7</div>
+		</div>
+
+		<div id="carre8" data-content="#carre8Anim" class="menu carre" data-current="#carre8">
+			<div class="carreDiv">Menu 8</div>
+		</div>
+
+		<div id="carre9" data-content="#carre9Anim" class="menu carre" data-current="#carre9">
+			<div class="carreDiv">Menu 9</div>
+		</div>
+	</div>
+
+	<div id="contenu">
+		<div id="carre1Anim" class="anim">
+		</div>
+		<div id="carre2Anim" class="anim">
+		</div>
+		<div id="carre3Anim" class="anim">
+		</div>
+		<div id="carre4Anim" class="anim">
+		</div>
+		<div id="carre5Anim" class="anim">
+		</div>
+		<div id="carre6Anim" class="anim">
+		</div>
+		<div id="carre7Anim" class="anim">
+		</div>
+		<div id="carre8Anim" class="anim">
+		</div>
+		<div id="carre9Anim" class="anim">
+		</div>
+	</div>
+
+	</body>
+</html>
