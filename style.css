@@ -1,0 +1,118 @@
+ body {
+     background-color: #000033;
+     padding-left: 3%;
+     padding-right: 3%;
+     padding-top: 0px;
+     margin: 0px;
+     
+ }
+ 
+ #menu {
+     width: 100%;
+     height: 110px;
+     background-color: #003366;
+     border: 1px solid #3300FF;
+     border-radius: 25px;
+ }
+ 
+ #contenu {
+     margin-top: 2%;
+     padding: 0.2%;
+     height: 650px;
+     width: 100%;
+     background-color: #000033;
+     border-radius: 25px;
+     visibility: hidden;
+ }
+ 
+ #carre1 {}
+ 
+ #carre2 {}
+ 
+ #carre3 {}
+ 
+ #carre4 {}
+ 
+ #carre5 {}
+ 
+ #carre6 {}
+ 
+ #carre7 {}
+ 
+ #carre8 {}
+ 
+ #carre9 {}
+ 
+ #carre1Anim {
+     margin-left: 3.7%;
+ }
+ 
+ #carre2Anim {
+     margin-left: 14%;
+ }
+ 
+ #carre3Anim {
+     margin-left: 24.2%;
+ }
+ 
+ #carre4Anim {
+     margin-left: 34.2%;
+ }
+ 
+ #carre5Anim {
+     margin-left: 44.6%;
+ }
+ 
+ #carre6Anim {
+     margin-left: 54.8%;
+ }
+ 
+ #carre7Anim {
+     margin-left: 65%;
+ }
+ 
+ #carre8Anim {
+     margin-left: 75.2%;
+ }
+ 
+ #carre9Anim {
+     margin-left: 85.4%;
+ }
+ 
+ .anim {
+     margin-top: 2.5%;
+     position: absolute;
+     height: 90px;
+     width: 180px;
+     background-color: #003366;
+     border: 1px solid #3300FF;
+     border-radius: 25px;
+     visibility: hidden;
+ }
+ 
+ .carre {
+     margin-top: 0.5%;
+     margin-left: 0.75%;
+     height: 90px;
+     width: 180px;
+     background-color: #000066;
+     border: 1px solid #3300FF;
+     border-radius: 25px;
+     color: white;
+     float: left;
+ }
+ 
+ .carreDiv {
+     margin-top: 20%;
+     margin-left: 35%;
+ }
+
+ #reduireAgrandir {
+     margin-left:34%;
+     padding-left: 14%;
+     width: 310px;
+     height: 30px;
+     margin-bottom: 10px;
+     visibility: hidden;
+ }
+ 

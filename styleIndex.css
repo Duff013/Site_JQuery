@@ -1,0 +1,42 @@
+ body {
+            background-color: #000033;
+        }
+        
+        #bienvenue {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            margin-left: 43%;
+            margin-top: 5%;
+            text-align: center;
+            background-color: white;
+            border-radius: 25px;
+        }
+        
+        #bienvenue>div {
+            margin-top: 50px;
+            font-size: 25px;
+        }
+        
+        #form {
+            margin-left: 29%;
+            margin-top: 5%;
+            height: 200px;
+            width: 600px;
+            background-color: white;
+            border-radius: 25px;
+            display: none;
+            padding-top: 110px;
+        }
+        
+        #spanId {
+            margin-left: 168px;
+        }
+        
+        #spanMdp {
+            margin-left: 150px;
+        }
+        
+        #spanSubmit {
+            margin-left: 287px;
+        }
